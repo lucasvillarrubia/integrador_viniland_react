@@ -10,6 +10,7 @@ export const CardUI = styled.div`
   width: 250px;
   height: 160px;
   position: relative;
+  border-radius: 50%;
   padding-top: 50px;
   color: white;
   @media (max-width: 768px) {
