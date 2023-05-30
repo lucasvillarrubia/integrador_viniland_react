@@ -1,9 +1,12 @@
-import { GiSpiralLollipop } from "react-icons/gi";
+import { GiSpiralLollipop, GiStarsStack, GiBoombox, GiSaxophone, GiCowboyBoot } from "react-icons/gi";
+import { TbHandRock } from "react-icons/tb";
+import { SiSoundcharts } from "react-icons/si";
+import { HiOutlineHeart } from "react-icons/hi";
 
 export const categories = [
         {
                 id: 1,
-                icon: <GiSpiralLollipop />,
+                icon: <HiOutlineHeart />,
                 name: 'Favs',
                 category: 'favs',
         },
@@ -15,38 +18,38 @@ export const categories = [
         },
         {
                 id: 3,
-                icon: <GiSpiralLollipop />,
+                icon: <TbHandRock />,
                 name: 'Rock',
                 category: 'rock',
         },
         {
                 id: 4,
-                icon: <GiSpiralLollipop />,
+                icon: <SiSoundcharts />,
                 name: 'R&B',
                 category: 'rnb',
         },
         {
                 id: 5,
-                icon: <GiSpiralLollipop />,
+                icon: <GiBoombox />,
                 name: 'Rap / Hip Hop',
                 category: 'rap',
         },
         {
                 id: 6,
-                icon: <GiSpiralLollipop />,
+                icon: <GiCowboyBoot />,
                 name: 'Country',
                 category: 'country',
         },
         {
                 id: 7,
-                icon: <GiSpiralLollipop />,
-                name: 'Instrumental',
-                category: 'instrumental',
+                icon: <GiSaxophone />,
+                name: 'Jazz',
+                category: 'jazz',
         },
         {
                 id: 8,
-                icon: <GiSpiralLollipop />,
-                name: 'Jazz',
-                category: 'jazz',
+                icon: <GiStarsStack />,
+                name: 'Arg',
+                category: 'argento',
         }
 ];      
