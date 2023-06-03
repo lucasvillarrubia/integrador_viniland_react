@@ -1,19 +1,21 @@
 import Products from './components/products/Products';
 import { GlobalStyles } from './styles/GlobalStyles';
-import { Section, Title } from './components/globalComponents/GlobalComponents';
-import Navbar from './components/navbar/Navbar';
+import Toolbar from './components/header/Toolbar';
 import Categories from './components/categories/Categories';
+import Navbar from './components/header/Navbar';
+import Hero from './components/hero/Hero';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <Section>
-        <Navbar />
-        <Title>Viniland</Title>
-        <Categories />
-        <Products />
-      </Section>
+      <Navbar />
+      <Toolbar />
+      <Hero />
+      <Categories />
+      <Products />
+      <Footer />
     </>
   );
 }

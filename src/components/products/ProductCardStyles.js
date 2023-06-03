@@ -3,10 +3,13 @@ import styled from "styled-components";
 
 
 export const ProductCardsContainer = styled.div`
-        background-color: var(--rosa);
+        /* background-color: var(--rosa); */
         display: grid;
         grid-template-columns: repeat(auto-fit, 300px);
         gap: 50px;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
 `;
 
 export const ProductCardUI = styled.div`

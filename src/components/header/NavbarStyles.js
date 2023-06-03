@@ -1,6 +1,27 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const NavbarUI = styled.div`
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 0;
+        position: fixed;
+        top: 0;
+`;
+
+export const NavTitle = styled.p`
+        font-family: 'Shrikhand', sans-serif;
+        color: var(--rosa);
+        font-size: 20px;
+        letter-spacing: 3px;
+        cursor: pointer;
+        /* -webkit-text-stroke: 2px var(--marronzote); */
+`;
+
+export const ToolbarUI = styled.div`
         width: 100%;
         background-color: black;
         display: flex;
@@ -9,11 +30,11 @@ export const NavbarUI = styled.div`
         position: fixed;
         bottom: 0;
         padding: 10px 0 5px 0;
-        max-width: 1300px;
+        /* max-width: 1300px; */
 `;
 
 export const NavIcon = styled.a`
-        font-size: 25px;
+        font-size: 20px;
         color: white;
         /* background-color: black; */
         cursor: pointer;

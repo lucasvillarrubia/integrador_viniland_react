@@ -23,6 +23,17 @@ export const GlobalStyles = createGlobalStyle`
                 --verdecito: #85ff9eff;
                 --saucecito: #b0ffc7ff;
                 --mentita: #daffefff;
+
+                --vanilla: #FFEEB0ff;
+                --rojomunsell: #EC2045ff;
+                --tomato: #F26247ff;
+                --oldgold: #C7C12Fff;
+                --celadon: #A3D39Fff;
+
+                --transparente: rgba(1, 1, 1, 0);
+                --borde_texto:  -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+                --borde_claro: -1px -1px 0 var(--mantecol), 1px -1px 0 var(--mantecol), -1px 1px 0 var(--mantecol), 1px 1px 0 var(--mantecol);
+                --borde_fino: -1px -1px 0 var(--marron), 1px -1px 0 var(--marron), -1px 1px 0 var(--marron), 1px 1px 0 var(--marron);
         }
 
         body{

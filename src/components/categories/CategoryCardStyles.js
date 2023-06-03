@@ -27,8 +27,13 @@ export const CategoryIcon = styled.i`
 `;
 
 export const CategoryCardsContainer = styled.div`
-        background-color: var(--mentita);
+        margin: 0 auto;
+        width: 100%;
+        /* background-color: var(--mentita); */
         display: grid;
         grid-template-columns: repeat(2, 120px);
-        gap: 20px;
+        grid-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
 `;

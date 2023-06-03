@@ -9,7 +9,7 @@ export const Main = styled.main`
 `;
 
 export const Section = styled.section`
-        position: relative;
+        /* position: relative; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -19,7 +19,8 @@ export const Section = styled.section`
         max-width: 1300px;
         /* width: 320px; */
         background-color: var(--marroncito);
-        gap: 50px;
+        padding-top: 50px;
+        /* gap: 50px; */
         /* width: 100%; */
 `;
 
@@ -40,9 +41,13 @@ export const Button = styled.button`
         }
 `;
 
-export const Title = styled.h1`
-        text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -10px 10px 0 #000, 2px 2px 0 #000;
-        font-family: 'Lobster', sans-serif;
-        font-size: 80px;
-        color: white;
+export const SectionTitle = styled.h4`
+        /* text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -10px 10px 0 #000, 2px 2px 0 #000; */
+        /* -webkit-text-stroke: 2px var(--marronzote); */
+        font-family: 'Kanit', sans-serif;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        color: black;
+        letter-spacing: 2px;
 `;

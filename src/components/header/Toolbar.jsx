@@ -1,19 +1,19 @@
 import React from 'react'
-import { NavbarUI, NavIcon } from './NavbarStyles'
+import { ToolbarUI, NavIcon } from './NavbarStyles'
 import { HiOutlineHome, HiOutlineMenu, HiOutlineSearch, HiOutlineUser, HiOutlineShoppingCart } from 'react-icons/hi';
 
 
-const Navbar = () => {
+const Toolbar = () => {
   return (
-        <NavbarUI>
+        <ToolbarUI>
+                <NavIcon><HiOutlineMenu /></NavIcon>
+                <NavIcon><HiOutlineSearch /></NavIcon>
                 <NavIcon><HiOutlineHome /></NavIcon>
                 <NavIcon><HiOutlineUser /></NavIcon>
                 <NavIcon><HiOutlineShoppingCart /></NavIcon>
-                <NavIcon><HiOutlineSearch /></NavIcon>
-                <NavIcon><HiOutlineMenu /></NavIcon>
-        </NavbarUI>
+        </ToolbarUI>
   )
 }
 
-export default Navbar
+export default Toolbar
 
