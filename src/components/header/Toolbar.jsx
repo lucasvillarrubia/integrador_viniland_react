@@ -6,11 +6,11 @@ import { HiOutlineHome, HiOutlineMenu, HiOutlineSearch, HiOutlineUser, HiOutline
 const Toolbar = () => {
   return (
         <ToolbarUI>
-                <NavIcon><HiOutlineMenu /></NavIcon>
-                <NavIcon><HiOutlineSearch /></NavIcon>
-                <NavIcon><HiOutlineHome /></NavIcon>
-                <NavIcon><HiOutlineUser /></NavIcon>
                 <NavIcon><HiOutlineShoppingCart /></NavIcon>
+                <NavIcon><HiOutlineUser /></NavIcon>
+                <NavIcon><HiOutlineHome /></NavIcon>
+                <NavIcon><HiOutlineSearch /></NavIcon>
+                <NavIcon><HiOutlineMenu /></NavIcon>
         </ToolbarUI>
   )
 }

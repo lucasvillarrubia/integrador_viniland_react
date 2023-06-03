@@ -23,7 +23,7 @@ export const CategoryName = styled.h5`
 
 export const CategoryIcon = styled.i`
         font-size: 40px;
-        color: var(--amarillo);
+        color: white;
 `;
 
 export const CategoryCardsContainer = styled.div`
@@ -31,7 +31,7 @@ export const CategoryCardsContainer = styled.div`
         width: 100%;
         /* background-color: var(--mentita); */
         display: grid;
-        grid-template-columns: repeat(2, 120px);
+        grid-template-columns: repeat(auto-fit, 120px);
         grid-gap: 20px;
         justify-content: center;
         align-items: center;

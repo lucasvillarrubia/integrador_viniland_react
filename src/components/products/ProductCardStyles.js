@@ -5,8 +5,9 @@ import styled from "styled-components";
 export const ProductCardsContainer = styled.div`
         /* background-color: var(--rosa); */
         display: grid;
+        width: 100%;
         grid-template-columns: repeat(auto-fit, 300px);
-        gap: 50px;
+        gap: 20px;
         justify-content: center;
         align-items: center;
         padding: 50px 0;
@@ -14,7 +15,7 @@ export const ProductCardsContainer = styled.div`
 
 export const ProductCardUI = styled.div`
         width: 300px;
-        /* height: 500px; */
+        /* min-height: 500px; */
         /* background-color: var(--marroncito); */
         display: flex;
         flex-direction: column;
@@ -29,12 +30,13 @@ export const ProductInfo = styled.div`
         border-radius: 10px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         color: white;
+        min-height: 375px;
         /* padding: 10px 20px 0; */
         img {
-                width: 90%;
+                max-width: 90%;
                 padding: 20px 5px;
                 max-height: 200px;
         }

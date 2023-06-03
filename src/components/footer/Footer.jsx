@@ -13,10 +13,10 @@ const Footer = () => {
                                         <p>VLAND</p>
                                 </LogosFooter>
                                 <RedesFooter>
-                                        <a href=''><BsWhatsapp /></a>
-                                        <a href=''><BsInstagram /></a>
-                                        <a href=''><BsFacebook /></a>
-                                        <a href=''><BsLinkedin /></a>
+                                        <a href='https://www.google.com.ar/'><BsWhatsapp /></a>
+                                        <a href='https://www.google.com.ar/'><BsInstagram /></a>
+                                        <a href='https://www.google.com.ar/'><BsFacebook /></a>
+                                        <a href='https://www.google.com.ar/'><BsLinkedin /></a>
                                 </RedesFooter>
                         </LinksFooter>
                         <DireccionFooter>
@@ -27,7 +27,7 @@ const Footer = () => {
                 </InfoFooter>
                 <ExtrasFooter>
                         <p>2023 ViniLand ® - All Rights Reserved</p>
-                        <a href=''>Términos y Condiciones</a> | <a href=''>Política de Privacidad</a>
+                        <a href='https://www.google.com.ar/'>Términos y Condiciones</a> | <a href='https://www.google.com.ar/'>Política de Privacidad</a>
                 </ExtrasFooter>
         </FooterUI>
   )

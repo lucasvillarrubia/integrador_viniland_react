@@ -8,6 +8,8 @@ export const FooterUI = styled.footer`
         gap: 80px;
         padding: 5rem 1rem;
         background-color: var(--marroncito);
+        max-width: 1440px;
+        margin: 0 auto;
 `;
 
 export const InfoFooter = styled.div`
@@ -36,7 +38,7 @@ export const LogosFooter = styled.div`
         & p {
                 font-family: 'Shrikhand', sans-serif;
                 font-size: 80px;
-                color: var(--marronzote);
+                color: black;
                 text-shadow: var(--borde_claro);
         }
 `;
@@ -49,7 +51,7 @@ export const RedesFooter = styled.div`
         gap: 20px;
         & a {
                 font-size: 40px;
-                color: var(--marronzote);
+                color: black;
                 text-shadow: var(--borde_fino);
         }
 `;
@@ -62,7 +64,7 @@ export const DireccionFooter = styled.div`
         text-align: center;
         font-size: 20px;
         overflow-wrap: break-word;
-        color: var(--marronzote);
+        color: black;
         gap: 20px;
         padding-top: 2rem;
 `;
@@ -72,11 +74,11 @@ export const ExtrasFooter = styled.div`
         & a {
                 text-decoration: underline;
                 font-size: 15px;
-                color: var(--marronzote);
+                color: black;
                 text-align: center;
         }
         & p {
-                color: var(--marronzote);
+                color: black;
                 font-size: 20px;
                 text-align: center;
         }

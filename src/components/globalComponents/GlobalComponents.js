@@ -16,7 +16,7 @@ export const Section = styled.section`
         flex-direction: column;
         margin: 0 auto;
         /* padding: 60px 0; */
-        max-width: 1300px;
+        max-width: 1440px;
         /* width: 320px; */
         background-color: var(--marroncito);
         padding-top: 50px;
